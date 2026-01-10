@@ -1,0 +1,3009 @@
+{
+  "description": "Angle discretization ablation study",
+  "parameters": {
+    "n_qubits": 3,
+    "n_trials": 50,
+    "grids": [
+      0.7853981633974483,
+      0.39269908169872414,
+      0.19634954084936207,
+      0.09817477042468103,
+      0.04908738521234052
+    ],
+    "seed": 1234
+  },
+  "individual_results": [
+    {
+      "n_qubits": 3,
+      "seed": 1234,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.52148938074343,
+          "gate_fidelity": 0.3097306484633353,
+          "gate_infidelity": 0.6902693515366647
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.406939595848416,
+          "gate_fidelity": 0.5647720589007771,
+          "gate_infidelity": 0.4352279410992229
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2813013997414423,
+          "gate_fidelity": 0.9732453541476241,
+          "gate_infidelity": 0.026754645852375858
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.15853125255241612,
+          "gate_fidelity": 0.9905039852171027,
+          "gate_infidelity": 0.0094960147828973
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.147269272341197,
+          "gate_fidelity": 0.9909959462125398,
+          "gate_infidelity": 0.009004053787460164
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1235,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.4163188559593347,
+          "gate_fidelity": 0.4727983159928826,
+          "gate_infidelity": 0.5272016840071174
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.957170636610817,
+          "gate_fidelity": 0.7027602703106486,
+          "gate_infidelity": 0.2972397296893514
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4375090391242771,
+          "gate_fidelity": 0.9454416146546263,
+          "gate_infidelity": 0.05455838534537372
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2628882054047981,
+          "gate_fidelity": 0.976283203676436,
+          "gate_infidelity": 0.02371679632356405
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.08656841383383716,
+          "gate_fidelity": 0.9975943247726534,
+          "gate_infidelity": 0.002405675227346582
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1236,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.4962222763864519,
+          "gate_fidelity": 0.43466605239635336,
+          "gate_infidelity": 0.5653339476036466
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.8961026188677619,
+          "gate_fidelity": 0.8061395842632009,
+          "gate_infidelity": 0.19386041573679913
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.43218980996692336,
+          "gate_fidelity": 0.9328031540860695,
+          "gate_infidelity": 0.06719684591393049
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.14679452706180487,
+          "gate_fidelity": 0.9894587961357123,
+          "gate_infidelity": 0.010541203864287696
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.16749923160038252,
+          "gate_fidelity": 0.9925644822045309,
+          "gate_infidelity": 0.007435517795469138
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1237,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.0725418894823517,
+          "gate_fidelity": 0.6673421379978418,
+          "gate_infidelity": 0.3326578620021582
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5887081065527289,
+          "gate_fidelity": 0.8606630304152814,
+          "gate_infidelity": 0.13933696958471864
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4676061997206306,
+          "gate_fidelity": 0.918875837360685,
+          "gate_infidelity": 0.08112416263931499
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2608955106617334,
+          "gate_fidelity": 0.9730380233259878,
+          "gate_infidelity": 0.026961976674012234
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10097467152886616,
+          "gate_fidelity": 0.9971480599516119,
+          "gate_infidelity": 0.0028519400483880686
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1238,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9761910657049292,
+          "gate_fidelity": 0.6612487146687466,
+          "gate_infidelity": 0.3387512853312534
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6990425965502135,
+          "gate_fidelity": 0.856534583816621,
+          "gate_infidelity": 0.14346541618337905
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.42251580289939045,
+          "gate_fidelity": 0.9437736403026259,
+          "gate_infidelity": 0.056226359697374106
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2597020806971242,
+          "gate_fidelity": 0.9681574043243152,
+          "gate_infidelity": 0.031842595675684815
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.09369719998898272,
+          "gate_fidelity": 0.9966504766664236,
+          "gate_infidelity": 0.0033495233335764096
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1239,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.17611458740827837,
+          "gate_infidelity": 0.8238854125917217
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.0697196626900682,
+          "gate_fidelity": 0.7104905719668051,
+          "gate_infidelity": 0.2895094280331949
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4672954926741751,
+          "gate_fidelity": 0.9108500424676654,
+          "gate_infidelity": 0.08914995753233457
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.16609789037963724,
+          "gate_fidelity": 0.9914471238419291,
+          "gate_infidelity": 0.008552876158070877
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10070340817790505,
+          "gate_fidelity": 0.9976645008923971,
+          "gate_infidelity": 0.0023354991076028897
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1240,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.6669514364170868,
+          "gate_fidelity": 0.2221403452148181,
+          "gate_infidelity": 0.7778596547851819
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.0116074375397537,
+          "gate_fidelity": 0.7528092125924176,
+          "gate_infidelity": 0.24719078740758238
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.42701566082573245,
+          "gate_fidelity": 0.9340743793255406,
+          "gate_infidelity": 0.0659256206744594
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.22462921833820995,
+          "gate_fidelity": 0.979699288246079,
+          "gate_infidelity": 0.020300711753921008
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.07303546849357707,
+          "gate_fidelity": 0.9981180439744194,
+          "gate_infidelity": 0.0018819560255806111
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1241,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.18267966813441888,
+          "gate_infidelity": 0.8173203318655811
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6626846434220006,
+          "gate_fidelity": 0.8198084857789033,
+          "gate_infidelity": 0.1801915142210967
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4687423450952076,
+          "gate_fidelity": 0.9103898613005919,
+          "gate_infidelity": 0.08961013869940815
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.31540609210233583,
+          "gate_fidelity": 0.9749564758904911,
+          "gate_infidelity": 0.02504352410950894
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1476961871314427,
+          "gate_fidelity": 0.9936712491072532,
+          "gate_infidelity": 0.0063287508927467595
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1242,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.4849250027695815,
+          "gate_fidelity": 0.47939827096792853,
+          "gate_infidelity": 0.5206017290320715
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6364969326003977,
+          "gate_fidelity": 0.8564390280088957,
+          "gate_infidelity": 0.1435609719911043
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.34579566180696975,
+          "gate_fidelity": 0.9486657049718349,
+          "gate_infidelity": 0.05133429502816511
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2010960969415771,
+          "gate_fidelity": 0.9855194523430444,
+          "gate_infidelity": 0.014480547656955611
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.07298482207986386,
+          "gate_fidelity": 0.9988528358227526,
+          "gate_infidelity": 0.0011471641772473617
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1243,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.21353474777834586,
+          "gate_infidelity": 0.7864652522216542
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.2060784498652477,
+          "gate_fidelity": 0.6521454543371796,
+          "gate_infidelity": 0.34785454566282037
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.358357451510682,
+          "gate_fidelity": 0.9451685380334468,
+          "gate_infidelity": 0.0548314619665532
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.22823944202804167,
+          "gate_fidelity": 0.9795074508910986,
+          "gate_infidelity": 0.020492549108901414
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.11026198875196154,
+          "gate_fidelity": 0.9953272635489682,
+          "gate_infidelity": 0.004672736451031834
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1244,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.18391525265326447,
+          "gate_infidelity": 0.8160847473467355
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9998527992140999,
+          "gate_fidelity": 0.7516326690834236,
+          "gate_infidelity": 0.24836733091657637
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5273343012465456,
+          "gate_fidelity": 0.8928436718062479,
+          "gate_infidelity": 0.10715632819375209
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1210967965190289,
+          "gate_fidelity": 0.9948547156427385,
+          "gate_infidelity": 0.00514528435726147
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10537742342972997,
+          "gate_fidelity": 0.9975614486911373,
+          "gate_infidelity": 0.002438551308862724
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1245,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.6023580156709345,
+          "gate_fidelity": 0.3886207551708935,
+          "gate_infidelity": 0.6113792448291064
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9469501890954652,
+          "gate_fidelity": 0.6224686579006362,
+          "gate_infidelity": 0.3775313420993638
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5624601683757355,
+          "gate_fidelity": 0.8938050883765271,
+          "gate_infidelity": 0.10619491162347294
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.23779162843489213,
+          "gate_fidelity": 0.9827186734313705,
+          "gate_infidelity": 0.017281326568629463
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10924149157288174,
+          "gate_fidelity": 0.9963260813645177,
+          "gate_infidelity": 0.003673918635482276
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1246,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.1091210245298935,
+          "gate_fidelity": 0.6115299314048626,
+          "gate_infidelity": 0.38847006859513744
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5423959072297958,
+          "gate_fidelity": 0.8784925844963334,
+          "gate_infidelity": 0.12150741550366662
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5244083556102078,
+          "gate_fidelity": 0.8956128825317811,
+          "gate_infidelity": 0.10438711746821894
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.24530288788433777,
+          "gate_fidelity": 0.979268423891277,
+          "gate_infidelity": 0.020731576108723004
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1536329030469515,
+          "gate_fidelity": 0.9940477227293703,
+          "gate_infidelity": 0.005952277270629747
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1247,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.7597522645884476,
+          "gate_fidelity": 0.3300149644252302,
+          "gate_infidelity": 0.6699850355747698
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.886872705463072,
+          "gate_fidelity": 0.691630716277591,
+          "gate_infidelity": 0.308369283722409
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.537196090383784,
+          "gate_fidelity": 0.9241440550371648,
+          "gate_infidelity": 0.07585594496283521
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.17650419520979807,
+          "gate_fidelity": 0.9858397255075002,
+          "gate_infidelity": 0.014160274492499791
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1170533838211618,
+          "gate_fidelity": 0.9964813719851467,
+          "gate_infidelity": 0.0035186280148532534
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1248,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.21069563371999644,
+          "gate_infidelity": 0.7893043662800036
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3709310427282916,
+          "gate_fidelity": 0.9394544481781322,
+          "gate_infidelity": 0.06054555182186783
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2895740032286687,
+          "gate_fidelity": 0.9736265803647264,
+          "gate_infidelity": 0.02637341963527362
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.24642151562006812,
+          "gate_fidelity": 0.9841749449138756,
+          "gate_infidelity": 0.015825055086124418
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.16046733031639063,
+          "gate_fidelity": 0.9939198179002049,
+          "gate_infidelity": 0.006080182099795106
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1249,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.4850892849733164,
+          "gate_fidelity": 0.3917108744743996,
+          "gate_infidelity": 0.6082891255256004
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.7392660184491232,
+          "gate_fidelity": 0.8341304039214443,
+          "gate_infidelity": 0.16586959607855567
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5047815241358061,
+          "gate_fidelity": 0.9124591427819393,
+          "gate_infidelity": 0.08754085721806071
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.19272328594563873,
+          "gate_fidelity": 0.9857575314454325,
+          "gate_infidelity": 0.014242468554567456
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.12614217783707704,
+          "gate_fidelity": 0.9945638735997421,
+          "gate_infidelity": 0.0054361264002579235
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1250,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.3422475602230053,
+          "gate_fidelity": 0.4500079971740401,
+          "gate_infidelity": 0.54999200282596
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6916032728793654,
+          "gate_fidelity": 0.8343033109866541,
+          "gate_infidelity": 0.1656966890133459
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4915660280139423,
+          "gate_fidelity": 0.9153981375119749,
+          "gate_infidelity": 0.08460186248802515
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1873795876707639,
+          "gate_fidelity": 0.9907833871911866,
+          "gate_infidelity": 0.009216612808813363
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.08111230610542017,
+          "gate_fidelity": 0.9979381031581845,
+          "gate_infidelity": 0.002061896841815458
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1251,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.2083357818577836,
+          "gate_fidelity": 0.5650753543335774,
+          "gate_infidelity": 0.43492464566642264
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.0721227283343746,
+          "gate_fidelity": 0.6047532197592312,
+          "gate_infidelity": 0.39524678024076876
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5051104156882991,
+          "gate_fidelity": 0.928064619689969,
+          "gate_infidelity": 0.071935380310031
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.14895936999918363,
+          "gate_fidelity": 0.9962981964328748,
+          "gate_infidelity": 0.003701803567125239
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.05800435146348371,
+          "gate_fidelity": 0.998487632162976,
+          "gate_infidelity": 0.0015123678370240201
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1252,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.12972369269519496,
+          "gate_infidelity": 0.870276307304805
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.875882046579445,
+          "gate_fidelity": 0.7512995958602632,
+          "gate_infidelity": 0.24870040413973682
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3993589128720279,
+          "gate_fidelity": 0.9640521025174498,
+          "gate_infidelity": 0.03594789748255023
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.26517257202170014,
+          "gate_fidelity": 0.9770382315583362,
+          "gate_infidelity": 0.022961768441663755
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.13375382490039742,
+          "gate_fidelity": 0.9961297199149463,
+          "gate_infidelity": 0.0038702800850537455
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1253,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.13551838419418674,
+          "gate_infidelity": 0.8644816158058133
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.624995490257587,
+          "gate_fidelity": 0.91064797712081,
+          "gate_infidelity": 0.08935202287918997
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3141842130911397,
+          "gate_fidelity": 0.9586816543055114,
+          "gate_infidelity": 0.041318345694488556
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.29882441813183064,
+          "gate_fidelity": 0.9763573624964129,
+          "gate_infidelity": 0.023642637503587083
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.11236892811253389,
+          "gate_fidelity": 0.9949766251904539,
+          "gate_infidelity": 0.005023374809546066
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1254,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.7479767185858361,
+          "gate_fidelity": 0.35098985555737894,
+          "gate_infidelity": 0.6490101444426211
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6800290247131807,
+          "gate_fidelity": 0.8662169456718942,
+          "gate_infidelity": 0.13378305432810578
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.48293798610739347,
+          "gate_fidelity": 0.9322715026162108,
+          "gate_infidelity": 0.06772849738378917
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2166799134952552,
+          "gate_fidelity": 0.988618932730161,
+          "gate_infidelity": 0.011381067269839007
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.06436654649121483,
+          "gate_fidelity": 0.998600414858747,
+          "gate_infidelity": 0.0013995851412530458
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1255,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.8645998721825778,
+          "gate_fidelity": 0.203389194375231,
+          "gate_infidelity": 0.7966108056247689
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9770693638257767,
+          "gate_fidelity": 0.7334761844837543,
+          "gate_infidelity": 0.2665238155162457
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4539902516803824,
+          "gate_fidelity": 0.9372441421747815,
+          "gate_infidelity": 0.06275585782521853
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.251133467338491,
+          "gate_fidelity": 0.9802851265168092,
+          "gate_infidelity": 0.019714873483190787
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10079890539316115,
+          "gate_fidelity": 0.9962385116190757,
+          "gate_infidelity": 0.0037614883809242716
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1256,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.6175797308193085,
+          "gate_fidelity": 0.4387400368105315,
+          "gate_infidelity": 0.5612599631894686
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.1107601419752582,
+          "gate_fidelity": 0.6965756904828548,
+          "gate_infidelity": 0.30342430951714516
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4702353676965822,
+          "gate_fidelity": 0.9333573024293954,
+          "gate_infidelity": 0.06664269757060459
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2981002001058192,
+          "gate_fidelity": 0.9722307545128683,
+          "gate_infidelity": 0.027769245487131666
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.13853914069425502,
+          "gate_fidelity": 0.9936131332027975,
+          "gate_infidelity": 0.006386866797202462
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1257,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.1834239586656108,
+          "gate_infidelity": 0.8165760413343892
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.989235089268071,
+          "gate_fidelity": 0.6815945231164338,
+          "gate_infidelity": 0.31840547688356624
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.42626863837282847,
+          "gate_fidelity": 0.9653347519887165,
+          "gate_infidelity": 0.034665248011283456
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.14780082738905997,
+          "gate_fidelity": 0.993240102738992,
+          "gate_infidelity": 0.006759897261008008
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.05806059249107683,
+          "gate_fidelity": 0.9991371570468893,
+          "gate_infidelity": 0.0008628429531106763
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1258,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.3017273844338713,
+          "gate_fidelity": 0.47105595320298477,
+          "gate_infidelity": 0.5289440467970152
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.7119217754250667,
+          "gate_fidelity": 0.8238647130546571,
+          "gate_infidelity": 0.17613528694534286
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.47355824299328964,
+          "gate_fidelity": 0.928420770653609,
+          "gate_infidelity": 0.07157922934639105
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.18359557194968773,
+          "gate_fidelity": 0.9891766800810318,
+          "gate_infidelity": 0.010823319918968233
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.09032614224017586,
+          "gate_fidelity": 0.9961620006698158,
+          "gate_infidelity": 0.0038379993301842497
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1259,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.11407999017212071,
+          "gate_infidelity": 0.8859200098278793
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.075729064994984,
+          "gate_fidelity": 0.7232812952360651,
+          "gate_infidelity": 0.2767187047639349
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.46086561870208426,
+          "gate_fidelity": 0.9110864687935685,
+          "gate_infidelity": 0.08891353120643153
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.23678822785048728,
+          "gate_fidelity": 0.9807280082216691,
+          "gate_infidelity": 0.019271991778330944
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.09423021928402721,
+          "gate_fidelity": 0.9979871762381884,
+          "gate_infidelity": 0.002012823761811555
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1260,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.21925211685226126,
+          "gate_infidelity": 0.7807478831477388
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.024168739224562,
+          "gate_fidelity": 0.7148149504457364,
+          "gate_infidelity": 0.2851850495542636
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2663283653703703,
+          "gate_fidelity": 0.9747803002167797,
+          "gate_infidelity": 0.02521969978322025
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2441192380384319,
+          "gate_fidelity": 0.9866780312381351,
+          "gate_infidelity": 0.013321968761864866
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.11450727274114401,
+          "gate_fidelity": 0.9959736658540161,
+          "gate_infidelity": 0.004026334145983856
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1261,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.332173297139204,
+          "gate_fidelity": 0.48644223373809425,
+          "gate_infidelity": 0.5135577662619057
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.8614598420423862,
+          "gate_fidelity": 0.7760720808730791,
+          "gate_infidelity": 0.2239279191269209
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.30577486810609933,
+          "gate_fidelity": 0.9610150026378936,
+          "gate_infidelity": 0.038984997362106366
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.14058867475127804,
+          "gate_fidelity": 0.9918707995005759,
+          "gate_infidelity": 0.008129200499424116
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.12775430981862268,
+          "gate_fidelity": 0.9959325367565791,
+          "gate_infidelity": 0.004067463243420888
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1262,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.7879989316739384,
+          "gate_fidelity": 0.27390118901701577,
+          "gate_infidelity": 0.7260988109829842
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.8575340912066426,
+          "gate_fidelity": 0.713515138883119,
+          "gate_infidelity": 0.286484861116881
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.24989073978207155,
+          "gate_fidelity": 0.9760993952242719,
+          "gate_infidelity": 0.023900604775728085
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.14298334386670802,
+          "gate_fidelity": 0.9909681838999317,
+          "gate_infidelity": 0.009031816100068313
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.09107643149725878,
+          "gate_fidelity": 0.9970286183823814,
+          "gate_infidelity": 0.0029713816176185626
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1263,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.19767733052629297,
+          "gate_infidelity": 0.802322669473707
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5521798174751023,
+          "gate_fidelity": 0.8661724058579172,
+          "gate_infidelity": 0.13382759414208278
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5049115031459458,
+          "gate_fidelity": 0.9002678520236249,
+          "gate_infidelity": 0.09973214797637509
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.2557929790851771,
+          "gate_fidelity": 0.9853960071079718,
+          "gate_infidelity": 0.014603992892028184
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.0657665490386687,
+          "gate_fidelity": 0.9981406512183822,
+          "gate_infidelity": 0.0018593487816177534
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1264,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.2655994318183217,
+          "gate_fidelity": 0.5797892963550475,
+          "gate_infidelity": 0.4202107036449525
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9282422343896909,
+          "gate_fidelity": 0.7746242814448188,
+          "gate_infidelity": 0.22537571855518124
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5673420181498193,
+          "gate_fidelity": 0.9005274307078897,
+          "gate_infidelity": 0.09947256929211035
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1948187526757479,
+          "gate_fidelity": 0.9869838623834737,
+          "gate_infidelity": 0.013016137616526313
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.13099243962236803,
+          "gate_fidelity": 0.995382981187059,
+          "gate_infidelity": 0.004617018812940965
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1265,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.17243519558045137,
+          "gate_infidelity": 0.8275648044195486
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9101972756456027,
+          "gate_fidelity": 0.7560586581334482,
+          "gate_infidelity": 0.2439413418665518
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.44540260794951775,
+          "gate_fidelity": 0.920087491365932,
+          "gate_infidelity": 0.07991250863406796
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.22375539156112612,
+          "gate_fidelity": 0.9876676792618694,
+          "gate_infidelity": 0.01233232073813062
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.16676154517506564,
+          "gate_fidelity": 0.9924350887577487,
+          "gate_infidelity": 0.007564911242251338
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1266,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.22232102317537197,
+          "gate_infidelity": 0.777678976824628
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.8447549676903225,
+          "gate_fidelity": 0.8317890733903641,
+          "gate_infidelity": 0.16821092660963588
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.38277008922316175,
+          "gate_fidelity": 0.9560361844024557,
+          "gate_infidelity": 0.043963815597544253
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.16140452120950438,
+          "gate_fidelity": 0.9904292002528563,
+          "gate_infidelity": 0.009570799747143699
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.11643594832178865,
+          "gate_fidelity": 0.9943715967901797,
+          "gate_infidelity": 0.005628403209820276
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1267,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.1884081623286529,
+          "gate_infidelity": 0.8115918376713471
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.7289241946760016,
+          "gate_fidelity": 0.8667625327755827,
+          "gate_infidelity": 0.13323746722441732
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4349074422810261,
+          "gate_fidelity": 0.9526090784821323,
+          "gate_infidelity": 0.04739092151786772
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.28609757522179147,
+          "gate_fidelity": 0.97645158488387,
+          "gate_infidelity": 0.02354841511613004
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10126961745194243,
+          "gate_fidelity": 0.9970591874232118,
+          "gate_infidelity": 0.002940812576788243
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1268,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.6467376342679019,
+          "gate_fidelity": 0.3183628122372995,
+          "gate_infidelity": 0.6816371877627005
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9757799377034658,
+          "gate_fidelity": 0.7583030391377817,
+          "gate_infidelity": 0.24169696086221826
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.40889312702778974,
+          "gate_fidelity": 0.9393326938534856,
+          "gate_infidelity": 0.06066730614651439
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.18237837838384185,
+          "gate_fidelity": 0.9891155253305836,
+          "gate_infidelity": 0.010884474669416444
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.15892694690184891,
+          "gate_fidelity": 0.9936594524662455,
+          "gate_infidelity": 0.006340547533754459
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1269,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.17321810229590962,
+          "gate_infidelity": 0.8267818977040904
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.7291325146593405,
+          "gate_fidelity": 0.8464030176829095,
+          "gate_infidelity": 0.1535969823170905
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.55581868776195,
+          "gate_fidelity": 0.9275212326221186,
+          "gate_infidelity": 0.07247876737788139
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.23602663538298163,
+          "gate_fidelity": 0.9755498352813999,
+          "gate_infidelity": 0.024450164718600065
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.11337639591698591,
+          "gate_fidelity": 0.9959842493556749,
+          "gate_infidelity": 0.004015750644325133
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1270,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.5198869227707408,
+          "gate_fidelity": 0.43129474739224966,
+          "gate_infidelity": 0.5687052526077503
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.8774493058207427,
+          "gate_fidelity": 0.7195444593077855,
+          "gate_infidelity": 0.28045554069221446
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3077439168388483,
+          "gate_fidelity": 0.9709648397149766,
+          "gate_infidelity": 0.029035160285023398
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.16076264185376046,
+          "gate_fidelity": 0.9910924466671887,
+          "gate_infidelity": 0.008907553332811347
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.12238537080901483,
+          "gate_fidelity": 0.9955447339613797,
+          "gate_infidelity": 0.004455266038620342
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1271,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.2943539889732523,
+          "gate_fidelity": 0.44555739658902127,
+          "gate_infidelity": 0.5544426034109787
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.7003317060887428,
+          "gate_fidelity": 0.7749735862834655,
+          "gate_infidelity": 0.22502641371653453
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3906658525421926,
+          "gate_fidelity": 0.9424826758331741,
+          "gate_infidelity": 0.05751732416682587
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.15391386954517483,
+          "gate_fidelity": 0.989919217091423,
+          "gate_infidelity": 0.010080782908576946
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1055284010463455,
+          "gate_fidelity": 0.9951804418439659,
+          "gate_infidelity": 0.004819558156034076
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1272,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.1265869420499543,
+          "gate_infidelity": 0.8734130579500456
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.9031885633815642,
+          "gate_fidelity": 0.7435865805438006,
+          "gate_infidelity": 0.25641341945619944
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4709111551863206,
+          "gate_fidelity": 0.9330334238224877,
+          "gate_infidelity": 0.06696657617751234
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.21987931084542184,
+          "gate_fidelity": 0.9825606801073571,
+          "gate_infidelity": 0.017439319892642913
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.07606482399501055,
+          "gate_fidelity": 0.9978740339250266,
+          "gate_infidelity": 0.0021259660749733955
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1273,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.14734218072781877,
+          "gate_infidelity": 0.8526578192721812
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6427700994706061,
+          "gate_fidelity": 0.8521135854112025,
+          "gate_infidelity": 0.14788641458879748
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3170262216558784,
+          "gate_fidelity": 0.9569427093610174,
+          "gate_infidelity": 0.04305729063898256
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1916042574404523,
+          "gate_fidelity": 0.9851284804214983,
+          "gate_infidelity": 0.014871519578501746
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1312848376099444,
+          "gate_fidelity": 0.9940661014366309,
+          "gate_infidelity": 0.005933898563369122
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1274,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.15143360577241985,
+          "gate_infidelity": 0.8485663942275802
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5559194621933181,
+          "gate_fidelity": 0.8718063574459416,
+          "gate_infidelity": 0.1281936425540584
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.39398635299540374,
+          "gate_fidelity": 0.9579818176114476,
+          "gate_infidelity": 0.04201818238855237
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.25951316966246246,
+          "gate_fidelity": 0.9768606556596053,
+          "gate_infidelity": 0.023139344340394663
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.13887762010806443,
+          "gate_fidelity": 0.993717562916514,
+          "gate_infidelity": 0.00628243708348597
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1275,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.16915248629585505,
+          "gate_infidelity": 0.8308475137041449
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6556101767414352,
+          "gate_fidelity": 0.8252461497382507,
+          "gate_infidelity": 0.17475385026174928
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.6545438224936365,
+          "gate_fidelity": 0.8907480008767161,
+          "gate_infidelity": 0.10925199912328387
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.22461422717342355,
+          "gate_fidelity": 0.978297668341993,
+          "gate_infidelity": 0.021702331658006946
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.06003579378809443,
+          "gate_fidelity": 0.9985766038639794,
+          "gate_infidelity": 0.0014233961360206049
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1276,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.3589137638530406,
+          "gate_fidelity": 0.501354476937433,
+          "gate_infidelity": 0.49864552306256704
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5727938725930714,
+          "gate_fidelity": 0.857239407008063,
+          "gate_infidelity": 0.142760592991937
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.41224805348131655,
+          "gate_fidelity": 0.9531487267743203,
+          "gate_infidelity": 0.046851273225679724
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.18057336102782723,
+          "gate_fidelity": 0.9877774246195609,
+          "gate_infidelity": 0.012222575380439138
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.11679613938518627,
+          "gate_fidelity": 0.9962207947431442,
+          "gate_infidelity": 0.003779205256855822
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1277,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.4991027776009278,
+          "gate_fidelity": 0.40576911736054405,
+          "gate_infidelity": 0.594230882639456
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.0739151153984408,
+          "gate_fidelity": 0.7199436800403016,
+          "gate_infidelity": 0.2800563199596984
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.39844722131566435,
+          "gate_fidelity": 0.9472275899569671,
+          "gate_infidelity": 0.0527724100430329
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.16359574691503945,
+          "gate_fidelity": 0.9868050608646991,
+          "gate_infidelity": 0.013194939135300898
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1262015661955472,
+          "gate_fidelity": 0.9940139862085032,
+          "gate_infidelity": 0.005986013791496769
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1278,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.4938400062030022,
+          "gate_fidelity": 0.3418693146995377,
+          "gate_infidelity": 0.6581306853004623
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.763373695481538,
+          "gate_fidelity": 0.8638434414040411,
+          "gate_infidelity": 0.13615655859595888
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5900069580756674,
+          "gate_fidelity": 0.8985486039281577,
+          "gate_infidelity": 0.10145139607184228
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.14399228216194498,
+          "gate_fidelity": 0.9918664390128791,
+          "gate_infidelity": 0.008133560987120925
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.15068080482429885,
+          "gate_fidelity": 0.9928293729829869,
+          "gate_infidelity": 0.007170627017013098
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1279,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.2704670764547434,
+          "gate_fidelity": 0.5118743257486926,
+          "gate_infidelity": 0.4881256742513074
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.8051353648641397,
+          "gate_fidelity": 0.8754576873770613,
+          "gate_infidelity": 0.12454231262293869
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3951069729939584,
+          "gate_fidelity": 0.9450031853330773,
+          "gate_infidelity": 0.054996814666922744
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1708639344843624,
+          "gate_fidelity": 0.9885530451529271,
+          "gate_infidelity": 0.011446954847072921
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.09106130974703229,
+          "gate_fidelity": 0.9966646339559152,
+          "gate_infidelity": 0.0033353660440847976
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1280,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.9999999999999996,
+          "gate_fidelity": 0.16263735745286886,
+          "gate_infidelity": 0.8373626425471311
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.0321989774387632,
+          "gate_fidelity": 0.7202960054349729,
+          "gate_infidelity": 0.27970399456502715
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.23717925421803207,
+          "gate_fidelity": 0.9838789699156858,
+          "gate_infidelity": 0.016121030084314203
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.27804665779520216,
+          "gate_fidelity": 0.9756463970698017,
+          "gate_infidelity": 0.02435360293019828
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.17334824935918564,
+          "gate_fidelity": 0.9921435733249577,
+          "gate_infidelity": 0.007856426675042272
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1281,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.5018460955692325,
+          "gate_fidelity": 0.3085734627302542,
+          "gate_infidelity": 0.6914265372697458
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4746322010648904,
+          "gate_fidelity": 0.9350555286724761,
+          "gate_infidelity": 0.0649444713275239
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5155786754528102,
+          "gate_fidelity": 0.9255806173113021,
+          "gate_infidelity": 0.07441938268869785
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.19698159380554622,
+          "gate_fidelity": 0.9910504546395487,
+          "gate_infidelity": 0.008949545360451339
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10540311959178356,
+          "gate_fidelity": 0.9957097519518976,
+          "gate_infidelity": 0.0042902480481024075
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1282,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.5291419416906702,
+          "gate_fidelity": 0.33564240148605967,
+          "gate_infidelity": 0.6643575985139403
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.5131358211567331,
+          "gate_fidelity": 0.8899411374032048,
+          "gate_infidelity": 0.1100588625967952
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.3722701361364967,
+          "gate_fidelity": 0.9385236791136281,
+          "gate_infidelity": 0.061476320886371894
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.14738738867501117,
+          "gate_fidelity": 0.9944782516708351,
+          "gate_infidelity": 0.005521748329164855
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10733419124686717,
+          "gate_fidelity": 0.9967685165095914,
+          "gate_infidelity": 0.003231483490408582
+        }
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1283,
+      "exact": {
+        "total_gates": 1120,
+        "total_2q": 672,
+        "depth": 924
+      },
+      "discretized": {
+        "0.7853981633974483": {
+          "grid": 0.7853981633974483,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 1.3632874618788766,
+          "gate_fidelity": 0.5422361017120638,
+          "gate_infidelity": 0.4577638982879362
+        },
+        "0.39269908169872414": {
+          "grid": 0.39269908169872414,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.4891431909928263,
+          "gate_fidelity": 0.9125007183080025,
+          "gate_infidelity": 0.0874992816919975
+        },
+        "0.19634954084936207": {
+          "grid": 0.19634954084936207,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.42587675955407794,
+          "gate_fidelity": 0.9478099137489492,
+          "gate_infidelity": 0.052190086251050816
+        },
+        "0.09817477042468103": {
+          "grid": 0.09817477042468103,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.1448866918612099,
+          "gate_fidelity": 0.9919689949914594,
+          "gate_infidelity": 0.008031005008540593
+        },
+        "0.04908738521234052": {
+          "grid": 0.04908738521234052,
+          "total_gates": 1120,
+          "total_2q": 672,
+          "depth": 924,
+          "operator_error": 0.10335276210060741,
+          "gate_fidelity": 0.995859344224182,
+          "gate_infidelity": 0.004140655775818014
+        }
+      }
+    }
+  ],
+  "aggregated_statistics": {
+    "0.7853981633974483": {
+      "operator_error": {
+        "mean": 1.6707355375044401,
+        "std": 0.31451741181833826,
+        "min": 0.9761910657049292,
+        "max": 1.9999999999999996
+      },
+      "gate_fidelity": {
+        "mean": 0.3278255339422725,
+        "std": 0.15702716760016064,
+        "min": 0.11407999017212071,
+        "max": 0.6673421379978418
+      },
+      "gate_infidelity": {
+        "mean": 0.6721744660577275,
+        "std": 0.15702716760016064,
+        "min": 0.3326578620021582,
+        "max": 0.8859200098278793
+      },
+      "total_gates": {
+        "mean": 1120.0,
+        "std": 0.0,
+        "min": 1120.0,
+        "max": 1120.0
+      },
+      "total_2q": {
+        "mean": 672.0,
+        "std": 0.0,
+        "min": 672.0,
+        "max": 672.0
+      },
+      "depth": {
+        "mean": 924.0,
+        "std": 0.0,
+        "min": 924.0,
+        "max": 924.0
+      }
+    },
+    "0.39269908169872414": {
+      "operator_error": {
+        "mean": 0.8180427701676058,
+        "std": 0.21283726324010607,
+        "min": 0.3709310427282916,
+        "max": 1.406939595848416
+      },
+      "gate_fidelity": {
+        "mean": 0.7878489743804847,
+        "std": 0.08734671960682475,
+        "min": 0.5647720589007771,
+        "max": 0.9394544481781322
+      },
+      "gate_infidelity": {
+        "mean": 0.21215102561951527,
+        "std": 0.08734671960682475,
+        "min": 0.06054555182186783,
+        "max": 0.4352279410992229
+      },
+      "total_gates": {
+        "mean": 1120.0,
+        "std": 0.0,
+        "min": 1120.0,
+        "max": 1120.0
+      },
+      "total_2q": {
+        "mean": 672.0,
+        "std": 0.0,
+        "min": 672.0,
+        "max": 672.0
+      },
+      "depth": {
+        "mean": 924.0,
+        "std": 0.0,
+        "min": 924.0,
+        "max": 924.0
+      }
+    },
+    "0.19634954084936207": {
+      "operator_error": {
+        "mean": 0.43071579566604407,
+        "std": 0.09161379554929514,
+        "min": 0.23717925421803207,
+        "max": 0.6545438224936365
+      },
+      "gate_fidelity": {
+        "mean": 0.9365968483013755,
+        "std": 0.024524735133421356,
+        "min": 0.8907480008767161,
+        "max": 0.9838789699156858
+      },
+      "gate_infidelity": {
+        "mean": 0.0634031516986245,
+        "std": 0.024524735133421356,
+        "min": 0.016121030084314203,
+        "max": 0.10925199912328387
+      },
+      "total_gates": {
+        "mean": 1120.0,
+        "std": 0.0,
+        "min": 1120.0,
+        "max": 1120.0
+      },
+      "total_2q": {
+        "mean": 672.0,
+        "std": 0.0,
+        "min": 672.0,
+        "max": 672.0
+      },
+      "depth": {
+        "mean": 924.0,
+        "std": 0.0,
+        "min": 924.0,
+        "max": 924.0
+      }
+    },
+    "0.09817477042468103": {
+      "operator_error": {
+        "mean": 0.2076627081031429,
+        "std": 0.04972658850438736,
+        "min": 0.1210967965190289,
+        "max": 0.31540609210233583
+      },
+      "gate_fidelity": {
+        "mean": 0.9847811585331234,
+        "std": 0.0067928360855430085,
+        "min": 0.9681574043243152,
+        "max": 0.9962981964328748
+      },
+      "gate_infidelity": {
+        "mean": 0.015218841466876475,
+        "std": 0.0067928360855430085,
+        "min": 0.003701803567125239,
+        "max": 0.031842595675684815
+      },
+      "total_gates": {
+        "mean": 1120.0,
+        "std": 0.0,
+        "min": 1120.0,
+        "max": 1120.0
+      },
+      "total_2q": {
+        "mean": 672.0,
+        "std": 0.0,
+        "min": 672.0,
+        "max": 672.0
+      },
+      "depth": {
+        "mean": 924.0,
+        "std": 0.0,
+        "min": 924.0,
+        "max": 924.0
+      }
+    },
+    "0.04908738521234052": {
+      "operator_error": {
+        "mean": 0.1119877755484126,
+        "std": 0.030065120480736982,
+        "min": 0.05800435146348371,
+        "max": 0.17334824935918564
+      },
+      "gate_fidelity": {
+        "mean": 0.995837909070518,
+        "std": 0.0019463975925406115,
+        "min": 0.9909959462125398,
+        "max": 0.9991371570468893
+      },
+      "gate_infidelity": {
+        "mean": 0.004162090929482063,
+        "std": 0.0019463975925406117,
+        "min": 0.0008628429531106763,
+        "max": 0.009004053787460164
+      },
+      "total_gates": {
+        "mean": 1120.0,
+        "std": 0.0,
+        "min": 1120.0,
+        "max": 1120.0
+      },
+      "total_2q": {
+        "mean": 672.0,
+        "std": 0.0,
+        "min": 672.0,
+        "max": 672.0
+      },
+      "depth": {
+        "mean": 924.0,
+        "std": 0.0,
+        "min": 924.0,
+        "max": 924.0
+      }
+    }
+  }
+}

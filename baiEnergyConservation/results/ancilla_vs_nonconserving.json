@@ -1,0 +1,110 @@
+{
+  "description": "Ancilla-based energy-conserving vs non-energy-conserving implementations",
+  "gates_tested": [
+    "SWAP",
+    "SWAP\u2297SWAP",
+    "CCZ"
+  ],
+  "results": [
+    {
+      "gate_name": "SWAP",
+      "n_logical_qubits": 2,
+      "energy_conserving": {
+        "n_ancillas": 1,
+        "total_gates": 14,
+        "total_1q": 4,
+        "total_2q": 10,
+        "total_nonconserving": 0,
+        "depth": 12,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 8,
+          "sqrtiSWAPdg_ec": 2,
+          "s": 1,
+          "sdg": 3
+        },
+        "noisy_fidelity_device": 0.6596700297828029,
+        "noisy_fidelity_jitter": 0.9932757912100573
+      },
+      "standard": {
+        "n_ancillas": 0,
+        "total_gates": 1,
+        "total_1q": 0,
+        "total_2q": 1,
+        "total_nonconserving": 0,
+        "depth": 1,
+        "gate_counts": {
+          "swap": 1
+        },
+        "noisy_fidelity_device": 0.9590771743710336,
+        "noisy_fidelity_jitter": 0.9995251051471564
+      }
+    },
+    {
+      "gate_name": "SWAP\u2297SWAP",
+      "n_logical_qubits": 4,
+      "energy_conserving": {
+        "n_ancillas": 1,
+        "total_gates": 28,
+        "total_1q": 8,
+        "total_2q": 20,
+        "total_nonconserving": 0,
+        "depth": 19,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 16,
+          "sqrtiSWAPdg_ec": 4,
+          "s": 2,
+          "sdg": 6
+        },
+        "noisy_fidelity_device": 0.4240683781115881,
+        "noisy_fidelity_jitter": 0.9865825327078819
+      },
+      "standard": {
+        "n_ancillas": 0,
+        "total_gates": 2,
+        "total_1q": 0,
+        "total_2q": 2,
+        "total_nonconserving": 0,
+        "depth": 1,
+        "gate_counts": {
+          "swap": 2
+        },
+        "noisy_fidelity_device": 0.9249798633539055,
+        "noisy_fidelity_jitter": 0.9990629222010105
+      }
+    },
+    {
+      "gate_name": "CCZ",
+      "n_logical_qubits": 3,
+      "energy_conserving": {
+        "n_ancillas": 1,
+        "total_gates": 30,
+        "total_1q": 6,
+        "total_2q": 24,
+        "total_nonconserving": 0,
+        "depth": 23,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 18,
+          "sqrtiSWAPdg_ec": 6,
+          "s": 3,
+          "sdg": 3
+        },
+        "noisy_fidelity_device": 0.4054057734853289,
+        "noisy_fidelity_jitter": 0.9864919356413668
+      },
+      "standard": {
+        "n_ancillas": 0,
+        "total_gates": 3,
+        "total_1q": 2,
+        "total_2q": 0,
+        "total_nonconserving": 2,
+        "depth": 3,
+        "gate_counts": {
+          "h": 2,
+          "ccx": 1
+        },
+        "noisy_fidelity_device": 0.904786764168316,
+        "noisy_fidelity_jitter": 0.9985886570173224
+      }
+    }
+  ]
+}

@@ -1,0 +1,3514 @@
+{
+  "description": "Native XY/\u221aiSWAP vs generic CX-based entanglers",
+  "parameters": {
+    "n_qubits_list": [
+      3,
+      4,
+      5
+    ],
+    "n_trials": 30,
+    "seed": 1234
+  },
+  "individual_results": [
+    {
+      "n_qubits": 3,
+      "seed": 1234,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000218246876,
+        "noisy_fidelity_jitter": 0.5690389250871704
+      },
+      "generic": {
+        "total_gates": 4265,
+        "total_1q": 3597,
+        "total_2q": 668,
+        "depth": 2823,
+        "gate_counts": {
+          "rz": 1953,
+          "sx": 1617,
+          "cx": 668,
+          "x": 27
+        },
+        "noisy_fidelity_device": 0.12500310554042512,
+        "noisy_fidelity_jitter": 0.7844846035403343
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0551948051948052
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1235,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000197801608,
+        "noisy_fidelity_jitter": 0.5656450937105495
+      },
+      "generic": {
+        "total_gates": 4256,
+        "total_1q": 3588,
+        "total_2q": 668,
+        "depth": 2821,
+        "gate_counts": {
+          "rz": 1938,
+          "sx": 1617,
+          "cx": 668,
+          "x": 33
+        },
+        "noisy_fidelity_device": 0.12500272945278015,
+        "noisy_fidelity_jitter": 0.7817751771116359
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.053030303030303
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1236,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000215357165,
+        "noisy_fidelity_jitter": 0.5649512641690237
+      },
+      "generic": {
+        "total_gates": 4250,
+        "total_1q": 3582,
+        "total_2q": 668,
+        "depth": 2816,
+        "gate_counts": {
+          "rz": 1931,
+          "sx": 1617,
+          "cx": 668,
+          "x": 34
+        },
+        "noisy_fidelity_device": 0.1250027393587786,
+        "noisy_fidelity_jitter": 0.7814036846054798
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0476190476190474
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1237,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000187018767,
+        "noisy_fidelity_jitter": 0.5742757113807826
+      },
+      "generic": {
+        "total_gates": 4259,
+        "total_1q": 3591,
+        "total_2q": 668,
+        "depth": 2825,
+        "gate_counts": {
+          "rz": 1947,
+          "sx": 1617,
+          "cx": 668,
+          "x": 27
+        },
+        "noisy_fidelity_device": 0.12500310627519912,
+        "noisy_fidelity_jitter": 0.7878597099927129
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0573593073593073
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1238,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000215493817,
+        "noisy_fidelity_jitter": 0.5663464758147325
+      },
+      "generic": {
+        "total_gates": 4258,
+        "total_1q": 3590,
+        "total_2q": 668,
+        "depth": 2823,
+        "gate_counts": {
+          "rz": 1938,
+          "sx": 1617,
+          "cx": 668,
+          "x": 35
+        },
+        "noisy_fidelity_device": 0.1250028452156563,
+        "noisy_fidelity_jitter": 0.7820212615322988
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0551948051948052
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1239,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000248392226,
+        "noisy_fidelity_jitter": 0.5673181594158183
+      },
+      "generic": {
+        "total_gates": 4256,
+        "total_1q": 3588,
+        "total_2q": 668,
+        "depth": 2821,
+        "gate_counts": {
+          "rz": 1941,
+          "sx": 1617,
+          "cx": 668,
+          "x": 30
+        },
+        "noisy_fidelity_device": 0.12500286101549044,
+        "noisy_fidelity_jitter": 0.7834535546233113
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.053030303030303
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1240,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000019840052,
+        "noisy_fidelity_jitter": 0.565801105134592
+      },
+      "generic": {
+        "total_gates": 4256,
+        "total_1q": 3588,
+        "total_2q": 668,
+        "depth": 2822,
+        "gate_counts": {
+          "rz": 1937,
+          "sx": 1617,
+          "cx": 668,
+          "x": 34
+        },
+        "noisy_fidelity_device": 0.12500278949966276,
+        "noisy_fidelity_jitter": 0.7820138491159851
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.054112554112554
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1241,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000020382639,
+        "noisy_fidelity_jitter": 0.5703355087866286
+      },
+      "generic": {
+        "total_gates": 4247,
+        "total_1q": 3579,
+        "total_2q": 668,
+        "depth": 2815,
+        "gate_counts": {
+          "rz": 1933,
+          "sx": 1617,
+          "cx": 668,
+          "x": 29
+        },
+        "noisy_fidelity_device": 0.12500288470504523,
+        "noisy_fidelity_jitter": 0.785609886066583
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0465367965367967
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1242,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000223477017,
+        "noisy_fidelity_jitter": 0.5682091840239523
+      },
+      "generic": {
+        "total_gates": 4249,
+        "total_1q": 3581,
+        "total_2q": 668,
+        "depth": 2816,
+        "gate_counts": {
+          "rz": 1934,
+          "sx": 1617,
+          "cx": 668,
+          "x": 30
+        },
+        "noisy_fidelity_device": 0.12500277367068882,
+        "noisy_fidelity_jitter": 0.7841338946545079
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0476190476190474
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1243,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000184897364,
+        "noisy_fidelity_jitter": 0.5702452929556281
+      },
+      "generic": {
+        "total_gates": 4268,
+        "total_1q": 3600,
+        "total_2q": 668,
+        "depth": 2831,
+        "gate_counts": {
+          "rz": 1953,
+          "sx": 1617,
+          "cx": 668,
+          "x": 30
+        },
+        "noisy_fidelity_device": 0.1250027294021872,
+        "noisy_fidelity_jitter": 0.7847594267436242
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.063852813852814
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1244,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000207109074,
+        "noisy_fidelity_jitter": 0.5693956876593682
+      },
+      "generic": {
+        "total_gates": 4254,
+        "total_1q": 3586,
+        "total_2q": 668,
+        "depth": 2819,
+        "gate_counts": {
+          "rz": 1938,
+          "sx": 1617,
+          "cx": 668,
+          "x": 31
+        },
+        "noisy_fidelity_device": 0.1250027273174249,
+        "noisy_fidelity_jitter": 0.7847082982107525
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0508658008658007
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1245,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000016134512,
+        "noisy_fidelity_jitter": 0.5666694218176669
+      },
+      "generic": {
+        "total_gates": 4253,
+        "total_1q": 3585,
+        "total_2q": 668,
+        "depth": 2819,
+        "gate_counts": {
+          "rz": 1940,
+          "sx": 1617,
+          "cx": 668,
+          "x": 28
+        },
+        "noisy_fidelity_device": 0.12500289475711687,
+        "noisy_fidelity_jitter": 0.7830715775290905
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0508658008658007
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1246,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000019848124,
+        "noisy_fidelity_jitter": 0.5664344578172467
+      },
+      "generic": {
+        "total_gates": 4261,
+        "total_1q": 3593,
+        "total_2q": 668,
+        "depth": 2819,
+        "gate_counts": {
+          "rz": 1949,
+          "sx": 1617,
+          "cx": 668,
+          "x": 27
+        },
+        "noisy_fidelity_device": 0.12500269822848784,
+        "noisy_fidelity_jitter": 0.7827298367511645
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0508658008658007
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1247,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000200173592,
+        "noisy_fidelity_jitter": 0.5733271168419409
+      },
+      "generic": {
+        "total_gates": 4250,
+        "total_1q": 3582,
+        "total_2q": 668,
+        "depth": 2816,
+        "gate_counts": {
+          "rz": 1935,
+          "sx": 1617,
+          "cx": 668,
+          "x": 30
+        },
+        "noisy_fidelity_device": 0.12500297206305297,
+        "noisy_fidelity_jitter": 0.7877504738280798
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0476190476190474
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1248,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000194917882,
+        "noisy_fidelity_jitter": 0.5655796651222103
+      },
+      "generic": {
+        "total_gates": 4253,
+        "total_1q": 3585,
+        "total_2q": 668,
+        "depth": 2817,
+        "gate_counts": {
+          "rz": 1939,
+          "sx": 1617,
+          "cx": 668,
+          "x": 29
+        },
+        "noisy_fidelity_device": 0.12500288585904173,
+        "noisy_fidelity_jitter": 0.7822249229452254
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0487012987012987
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1249,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000210418982,
+        "noisy_fidelity_jitter": 0.563920120219883
+      },
+      "generic": {
+        "total_gates": 4264,
+        "total_1q": 3596,
+        "total_2q": 668,
+        "depth": 2823,
+        "gate_counts": {
+          "rz": 1950,
+          "sx": 1617,
+          "cx": 668,
+          "x": 29
+        },
+        "noisy_fidelity_device": 0.12500277089859085,
+        "noisy_fidelity_jitter": 0.7808041632273279
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0551948051948052
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1250,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000179505658,
+        "noisy_fidelity_jitter": 0.5719070450179302
+      },
+      "generic": {
+        "total_gates": 4259,
+        "total_1q": 3591,
+        "total_2q": 668,
+        "depth": 2826,
+        "gate_counts": {
+          "rz": 1945,
+          "sx": 1617,
+          "cx": 668,
+          "x": 29
+        },
+        "noisy_fidelity_device": 0.12500284571683967,
+        "noisy_fidelity_jitter": 0.7863074148069782
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0584415584415585
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1251,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.125000002784253,
+        "noisy_fidelity_jitter": 0.5644624402609072
+      },
+      "generic": {
+        "total_gates": 4257,
+        "total_1q": 3589,
+        "total_2q": 668,
+        "depth": 2822,
+        "gate_counts": {
+          "rz": 1945,
+          "sx": 1617,
+          "cx": 668,
+          "x": 27
+        },
+        "noisy_fidelity_device": 0.12500274048065485,
+        "noisy_fidelity_jitter": 0.7813638749711862
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.054112554112554
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1252,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000019834947,
+        "noisy_fidelity_jitter": 0.5671505154440788
+      },
+      "generic": {
+        "total_gates": 4259,
+        "total_1q": 3591,
+        "total_2q": 668,
+        "depth": 2826,
+        "gate_counts": {
+          "rz": 1942,
+          "sx": 1617,
+          "cx": 668,
+          "x": 32
+        },
+        "noisy_fidelity_device": 0.12500274233412234,
+        "noisy_fidelity_jitter": 0.7830494326130936
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0584415584415585
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1253,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000164814587,
+        "noisy_fidelity_jitter": 0.5733597109672053
+      },
+      "generic": {
+        "total_gates": 4269,
+        "total_1q": 3601,
+        "total_2q": 668,
+        "depth": 2828,
+        "gate_counts": {
+          "rz": 1953,
+          "sx": 1617,
+          "cx": 668,
+          "x": 31
+        },
+        "noisy_fidelity_device": 0.12500277982949418,
+        "noisy_fidelity_jitter": 0.7870708744838268
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0606060606060606
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1254,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000187071114,
+        "noisy_fidelity_jitter": 0.5740496908004897
+      },
+      "generic": {
+        "total_gates": 4265,
+        "total_1q": 3597,
+        "total_2q": 668,
+        "depth": 2825,
+        "gate_counts": {
+          "rz": 1953,
+          "sx": 1617,
+          "cx": 668,
+          "x": 27
+        },
+        "noisy_fidelity_device": 0.1250029642521073,
+        "noisy_fidelity_jitter": 0.7878983416751995
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0573593073593073
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1255,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000213608647,
+        "noisy_fidelity_jitter": 0.5674988106304322
+      },
+      "generic": {
+        "total_gates": 4260,
+        "total_1q": 3592,
+        "total_2q": 668,
+        "depth": 2821,
+        "gate_counts": {
+          "rz": 1946,
+          "sx": 1617,
+          "cx": 668,
+          "x": 29
+        },
+        "noisy_fidelity_device": 0.12500293878823832,
+        "noisy_fidelity_jitter": 0.7833905987409759
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.053030303030303
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1256,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000020365252,
+        "noisy_fidelity_jitter": 0.5649281246888538
+      },
+      "generic": {
+        "total_gates": 4274,
+        "total_1q": 3606,
+        "total_2q": 668,
+        "depth": 2828,
+        "gate_counts": {
+          "rz": 1957,
+          "sx": 1617,
+          "cx": 668,
+          "x": 32
+        },
+        "noisy_fidelity_device": 0.12500274531594996,
+        "noisy_fidelity_jitter": 0.7810797967846557
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0606060606060606
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1257,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000214198062,
+        "noisy_fidelity_jitter": 0.5658909274342463
+      },
+      "generic": {
+        "total_gates": 4259,
+        "total_1q": 3591,
+        "total_2q": 668,
+        "depth": 2822,
+        "gate_counts": {
+          "rz": 1949,
+          "sx": 1617,
+          "cx": 668,
+          "x": 25
+        },
+        "noisy_fidelity_device": 0.12500287368916443,
+        "noisy_fidelity_jitter": 0.7827115842115668
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.054112554112554
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1258,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000020746301,
+        "noisy_fidelity_jitter": 0.5641949394872933
+      },
+      "generic": {
+        "total_gates": 4262,
+        "total_1q": 3594,
+        "total_2q": 668,
+        "depth": 2828,
+        "gate_counts": {
+          "rz": 1947,
+          "sx": 1617,
+          "cx": 668,
+          "x": 30
+        },
+        "noisy_fidelity_device": 0.12500265307559966,
+        "noisy_fidelity_jitter": 0.7808997696717075
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0606060606060606
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1259,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000143256546,
+        "noisy_fidelity_jitter": 0.5793629779524248
+      },
+      "generic": {
+        "total_gates": 4255,
+        "total_1q": 3587,
+        "total_2q": 668,
+        "depth": 2819,
+        "gate_counts": {
+          "rz": 1936,
+          "sx": 1617,
+          "cx": 668,
+          "x": 34
+        },
+        "noisy_fidelity_device": 0.1250029979479367,
+        "noisy_fidelity_jitter": 0.7911372556878007
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0508658008658007
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1260,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000022229478,
+        "noisy_fidelity_jitter": 0.5654100015997943
+      },
+      "generic": {
+        "total_gates": 4258,
+        "total_1q": 3590,
+        "total_2q": 668,
+        "depth": 2822,
+        "gate_counts": {
+          "rz": 1939,
+          "sx": 1617,
+          "cx": 668,
+          "x": 34
+        },
+        "noisy_fidelity_device": 0.12500268057656488,
+        "noisy_fidelity_jitter": 0.7815652612798882
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.054112554112554
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1261,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000233538283,
+        "noisy_fidelity_jitter": 0.5674011534848474
+      },
+      "generic": {
+        "total_gates": 4256,
+        "total_1q": 3588,
+        "total_2q": 668,
+        "depth": 2823,
+        "gate_counts": {
+          "rz": 1936,
+          "sx": 1617,
+          "cx": 668,
+          "x": 35
+        },
+        "noisy_fidelity_device": 0.12500280981795348,
+        "noisy_fidelity_jitter": 0.7829008111160045
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0551948051948052
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1262,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.12500000216153193,
+        "noisy_fidelity_jitter": 0.5692053393412515
+      },
+      "generic": {
+        "total_gates": 4268,
+        "total_1q": 3600,
+        "total_2q": 668,
+        "depth": 2830,
+        "gate_counts": {
+          "rz": 1949,
+          "sx": 1617,
+          "cx": 668,
+          "x": 34
+        },
+        "noisy_fidelity_device": 0.12500283083011826,
+        "noisy_fidelity_jitter": 0.7839301144830393
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.0627705627705626
+      }
+    },
+    {
+      "n_qubits": 3,
+      "seed": 1263,
+      "native": {
+        "total_gates": 1120,
+        "total_1q": 448,
+        "total_2q": 672,
+        "depth": 924,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 336,
+          "sqrtiSWAPdg_ec": 336,
+          "s": 140,
+          "rz": 168,
+          "sdg": 140
+        },
+        "noisy_fidelity_device": 0.1250000020705932,
+        "noisy_fidelity_jitter": 0.5663278736705725
+      },
+      "generic": {
+        "total_gates": 4259,
+        "total_1q": 3591,
+        "total_2q": 668,
+        "depth": 2820,
+        "gate_counts": {
+          "rz": 1947,
+          "sx": 1617,
+          "cx": 668,
+          "x": 27
+        },
+        "noisy_fidelity_device": 0.12500270446105,
+        "noisy_fidelity_jitter": 0.7827288781905383
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9940476190476191,
+        "depth_ratio": 3.051948051948052
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1234,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.0650702421544693,
+        "noisy_fidelity_jitter": 0.0650279649357313
+      },
+      "generic": {
+        "total_gates": 42032,
+        "total_1q": 35366,
+        "total_2q": 6666,
+        "depth": 27809,
+        "gate_counts": {
+          "rz": 19002,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 344
+        },
+        "noisy_fidelity_device": 0.0613535348565367,
+        "noisy_fidelity_jitter": 0.10576845030742085
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0174696180555554
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1235,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06479084944048608,
+        "noisy_fidelity_jitter": 0.06488895128692303
+      },
+      "generic": {
+        "total_gates": 42087,
+        "total_1q": 35429,
+        "total_2q": 6658,
+        "depth": 27854,
+        "gate_counts": {
+          "rz": 19050,
+          "sx": 16010,
+          "cx": 6658,
+          "x": 369
+        },
+        "noisy_fidelity_device": 0.06156670859784173,
+        "noisy_fidelity_jitter": 0.10587300756307402
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9907738095238096,
+        "depth_ratio": 3.0223524305555554
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1236,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.0650916306921155,
+        "noisy_fidelity_jitter": 0.0650339651607684
+      },
+      "generic": {
+        "total_gates": 42150,
+        "total_1q": 35484,
+        "total_2q": 6666,
+        "depth": 27870,
+        "gate_counts": {
+          "rz": 19096,
+          "sx": 16022,
+          "cx": 6666,
+          "x": 366
+        },
+        "noisy_fidelity_device": 0.06144552188097776,
+        "noisy_fidelity_jitter": 0.10544794490699035
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0240885416666665
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1237,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06496319086183042,
+        "noisy_fidelity_jitter": 0.06526466490217814
+      },
+      "generic": {
+        "total_gates": 42120,
+        "total_1q": 35454,
+        "total_2q": 6666,
+        "depth": 27853,
+        "gate_counts": {
+          "rz": 19069,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 365
+        },
+        "noisy_fidelity_device": 0.061465253868318415,
+        "noisy_fidelity_jitter": 0.10601493455178357
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.022243923611111
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1238,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06536833455146493,
+        "noisy_fidelity_jitter": 0.06519093922573238
+      },
+      "generic": {
+        "total_gates": 42102,
+        "total_1q": 35436,
+        "total_2q": 6666,
+        "depth": 27841,
+        "gate_counts": {
+          "rz": 19053,
+          "sx": 16022,
+          "cx": 6666,
+          "x": 361
+        },
+        "noisy_fidelity_device": 0.061619977090251674,
+        "noisy_fidelity_jitter": 0.10652735841049936
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0209418402777777
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1239,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06504225530964157,
+        "noisy_fidelity_jitter": 0.06517417668547751
+      },
+      "generic": {
+        "total_gates": 42083,
+        "total_1q": 35417,
+        "total_2q": 6666,
+        "depth": 27830,
+        "gate_counts": {
+          "rz": 19034,
+          "sx": 16026,
+          "cx": 6666,
+          "x": 357
+        },
+        "noisy_fidelity_device": 0.06153509529199895,
+        "noisy_fidelity_jitter": 0.10477810627277964
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.019748263888889
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1240,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06531988866795814,
+        "noisy_fidelity_jitter": 0.06529845636205414
+      },
+      "generic": {
+        "total_gates": 42070,
+        "total_1q": 35404,
+        "total_2q": 6666,
+        "depth": 27815,
+        "gate_counts": {
+          "rz": 19042,
+          "sx": 16029,
+          "cx": 6666,
+          "x": 333
+        },
+        "noisy_fidelity_device": 0.06162264073220788,
+        "noisy_fidelity_jitter": 0.10668221529043273
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0181206597222223
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1241,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06487984035438125,
+        "noisy_fidelity_jitter": 0.06518636938082226
+      },
+      "generic": {
+        "total_gates": 42131,
+        "total_1q": 35465,
+        "total_2q": 6666,
+        "depth": 27857,
+        "gate_counts": {
+          "rz": 19070,
+          "sx": 16026,
+          "cx": 6666,
+          "x": 369
+        },
+        "noisy_fidelity_device": 0.06142315235401462,
+        "noisy_fidelity_jitter": 0.10572209982055789
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.022677951388889
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1242,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.064866926645365,
+        "noisy_fidelity_jitter": 0.06513629226056845
+      },
+      "generic": {
+        "total_gates": 42071,
+        "total_1q": 35405,
+        "total_2q": 6666,
+        "depth": 27809,
+        "gate_counts": {
+          "rz": 19028,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 357
+        },
+        "noisy_fidelity_device": 0.0612908812489795,
+        "noisy_fidelity_jitter": 0.10559698057005315
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0174696180555554
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1243,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06535145292839444,
+        "noisy_fidelity_jitter": 0.06523808786606586
+      },
+      "generic": {
+        "total_gates": 42103,
+        "total_1q": 35437,
+        "total_2q": 6666,
+        "depth": 27864,
+        "gate_counts": {
+          "rz": 19044,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 373
+        },
+        "noisy_fidelity_device": 0.06151557454241228,
+        "noisy_fidelity_jitter": 0.10481400316217482
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0234375
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1244,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06506787809361476,
+        "noisy_fidelity_jitter": 0.06519384144955602
+      },
+      "generic": {
+        "total_gates": 42056,
+        "total_1q": 35390,
+        "total_2q": 6666,
+        "depth": 27807,
+        "gate_counts": {
+          "rz": 19034,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 336
+        },
+        "noisy_fidelity_device": 0.061376353136034144,
+        "noisy_fidelity_jitter": 0.10748173223366413
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0172526041666665
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1245,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06500995833311074,
+        "noisy_fidelity_jitter": 0.06505929862931117
+      },
+      "generic": {
+        "total_gates": 42087,
+        "total_1q": 35421,
+        "total_2q": 6666,
+        "depth": 27829,
+        "gate_counts": {
+          "rz": 19040,
+          "sx": 16024,
+          "cx": 6666,
+          "x": 357
+        },
+        "noisy_fidelity_device": 0.06163626843198974,
+        "noisy_fidelity_jitter": 0.106133132158388
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0196397569444446
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1246,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06507461552847355,
+        "noisy_fidelity_jitter": 0.06537109164429633
+      },
+      "generic": {
+        "total_gates": 42116,
+        "total_1q": 35450,
+        "total_2q": 6666,
+        "depth": 27879,
+        "gate_counts": {
+          "rz": 19045,
+          "sx": 16024,
+          "cx": 6666,
+          "x": 381
+        },
+        "noisy_fidelity_device": 0.06167394103239392,
+        "noisy_fidelity_jitter": 0.10830595032665828
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0250651041666665
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1247,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06489836408068636,
+        "noisy_fidelity_jitter": 0.06505334142296905
+      },
+      "generic": {
+        "total_gates": 42079,
+        "total_1q": 35413,
+        "total_2q": 6666,
+        "depth": 27844,
+        "gate_counts": {
+          "rz": 19028,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 365
+        },
+        "noisy_fidelity_device": 0.06146370304575122,
+        "noisy_fidelity_jitter": 0.10576742990824661
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.021267361111111
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1248,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.0651201684746129,
+        "noisy_fidelity_jitter": 0.0651611640025618
+      },
+      "generic": {
+        "total_gates": 42070,
+        "total_1q": 35396,
+        "total_2q": 6674,
+        "depth": 27847,
+        "gate_counts": {
+          "rz": 19011,
+          "sx": 16019,
+          "cx": 6674,
+          "x": 366
+        },
+        "noisy_fidelity_device": 0.06137092976708429,
+        "noisy_fidelity_jitter": 0.10499370150560486
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9931547619047619,
+        "depth_ratio": 3.0215928819444446
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1249,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06509741385830749,
+        "noisy_fidelity_jitter": 0.0649303496648099
+      },
+      "generic": {
+        "total_gates": 42056,
+        "total_1q": 35390,
+        "total_2q": 6666,
+        "depth": 27820,
+        "gate_counts": {
+          "rz": 19034,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 336
+        },
+        "noisy_fidelity_device": 0.06147802025736857,
+        "noisy_fidelity_jitter": 0.10521572177418381
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0186631944444446
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1250,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.0653545915427843,
+        "noisy_fidelity_jitter": 0.06509402050335676
+      },
+      "generic": {
+        "total_gates": 42101,
+        "total_1q": 35435,
+        "total_2q": 6666,
+        "depth": 27836,
+        "gate_counts": {
+          "rz": 19055,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 360
+        },
+        "noisy_fidelity_device": 0.06164828448057098,
+        "noisy_fidelity_jitter": 0.10662739030537224
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0203993055555554
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1251,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06497369760746598,
+        "noisy_fidelity_jitter": 0.06501950113655476
+      },
+      "generic": {
+        "total_gates": 42150,
+        "total_1q": 35484,
+        "total_2q": 6666,
+        "depth": 27871,
+        "gate_counts": {
+          "rz": 19074,
+          "sx": 16024,
+          "cx": 6666,
+          "x": 386
+        },
+        "noisy_fidelity_device": 0.06159802262151306,
+        "noisy_fidelity_jitter": 0.10475050899880196
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.024197048611111
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1252,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06508579616331754,
+        "noisy_fidelity_jitter": 0.06512831784150103
+      },
+      "generic": {
+        "total_gates": 42125,
+        "total_1q": 35459,
+        "total_2q": 6666,
+        "depth": 27847,
+        "gate_counts": {
+          "rz": 19075,
+          "sx": 16022,
+          "cx": 6666,
+          "x": 362
+        },
+        "noisy_fidelity_device": 0.061350595603744285,
+        "noisy_fidelity_jitter": 0.10500681911992489
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0215928819444446
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1253,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06522803546857844,
+        "noisy_fidelity_jitter": 0.06501458069854427
+      },
+      "generic": {
+        "total_gates": 42099,
+        "total_1q": 35433,
+        "total_2q": 6666,
+        "depth": 27820,
+        "gate_counts": {
+          "rz": 19066,
+          "sx": 16028,
+          "cx": 6666,
+          "x": 339
+        },
+        "noisy_fidelity_device": 0.06136489331378227,
+        "noisy_fidelity_jitter": 0.10622724343549264
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0186631944444446
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1254,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06492640134023898,
+        "noisy_fidelity_jitter": 0.06549085104903607
+      },
+      "generic": {
+        "total_gates": 42069,
+        "total_1q": 35403,
+        "total_2q": 6666,
+        "depth": 27819,
+        "gate_counts": {
+          "rz": 19025,
+          "sx": 16026,
+          "cx": 6666,
+          "x": 352
+        },
+        "noisy_fidelity_device": 0.061610841189494225,
+        "noisy_fidelity_jitter": 0.10904140283712574
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0185546875
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1255,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06520979825108984,
+        "noisy_fidelity_jitter": 0.06518669337173959
+      },
+      "generic": {
+        "total_gates": 42081,
+        "total_1q": 35415,
+        "total_2q": 6666,
+        "depth": 27862,
+        "gate_counts": {
+          "rz": 19022,
+          "sx": 16024,
+          "cx": 6666,
+          "x": 369
+        },
+        "noisy_fidelity_device": 0.0614961531532184,
+        "noisy_fidelity_jitter": 0.10580819680004394
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.023220486111111
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1256,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06524099786070771,
+        "noisy_fidelity_jitter": 0.06508906972342283
+      },
+      "generic": {
+        "total_gates": 42076,
+        "total_1q": 35410,
+        "total_2q": 6666,
+        "depth": 27832,
+        "gate_counts": {
+          "rz": 19022,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 368
+        },
+        "noisy_fidelity_device": 0.06153369537559424,
+        "noisy_fidelity_jitter": 0.10501402014805997
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0199652777777777
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1257,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06483190763478212,
+        "noisy_fidelity_jitter": 0.06539891039222843
+      },
+      "generic": {
+        "total_gates": 42034,
+        "total_1q": 35368,
+        "total_2q": 6666,
+        "depth": 27802,
+        "gate_counts": {
+          "rz": 19005,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 343
+        },
+        "noisy_fidelity_device": 0.061307427956618796,
+        "noisy_fidelity_jitter": 0.10815274667281471
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0167100694444446
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1258,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06521107557522884,
+        "noisy_fidelity_jitter": 0.06503881916666769
+      },
+      "generic": {
+        "total_gates": 42101,
+        "total_1q": 35435,
+        "total_2q": 6666,
+        "depth": 27835,
+        "gate_counts": {
+          "rz": 19057,
+          "sx": 16024,
+          "cx": 6666,
+          "x": 354
+        },
+        "noisy_fidelity_device": 0.061643322098263495,
+        "noisy_fidelity_jitter": 0.10551520143277426
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.020290798611111
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1259,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06491766702432421,
+        "noisy_fidelity_jitter": 0.0653415594898356
+      },
+      "generic": {
+        "total_gates": 42083,
+        "total_1q": 35417,
+        "total_2q": 6666,
+        "depth": 27844,
+        "gate_counts": {
+          "rz": 19040,
+          "sx": 16024,
+          "cx": 6666,
+          "x": 353
+        },
+        "noisy_fidelity_device": 0.06154807054441156,
+        "noisy_fidelity_jitter": 0.10557045126454737
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.021267361111111
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1260,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06528299409841141,
+        "noisy_fidelity_jitter": 0.06494434029832308
+      },
+      "generic": {
+        "total_gates": 42094,
+        "total_1q": 35428,
+        "total_2q": 6666,
+        "depth": 27857,
+        "gate_counts": {
+          "rz": 19037,
+          "sx": 16029,
+          "cx": 6666,
+          "x": 362
+        },
+        "noisy_fidelity_device": 0.06149345595564069,
+        "noisy_fidelity_jitter": 0.1058565296839521
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.022677951388889
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1261,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06533178286616308,
+        "noisy_fidelity_jitter": 0.0651899190311874
+      },
+      "generic": {
+        "total_gates": 42063,
+        "total_1q": 35397,
+        "total_2q": 6666,
+        "depth": 27823,
+        "gate_counts": {
+          "rz": 19010,
+          "sx": 16022,
+          "cx": 6666,
+          "x": 365
+        },
+        "noisy_fidelity_device": 0.06147633456549639,
+        "noisy_fidelity_jitter": 0.1064572178891402
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0189887152777777
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1262,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.0647908555268134,
+        "noisy_fidelity_jitter": 0.0652835486690777
+      },
+      "generic": {
+        "total_gates": 42091,
+        "total_1q": 35425,
+        "total_2q": 6666,
+        "depth": 27842,
+        "gate_counts": {
+          "rz": 19043,
+          "sx": 16020,
+          "cx": 6666,
+          "x": 362
+        },
+        "noisy_fidelity_device": 0.06150773460285841,
+        "noisy_fidelity_jitter": 0.10592297094029579
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0210503472222223
+      }
+    },
+    {
+      "n_qubits": 4,
+      "seed": 1263,
+      "native": {
+        "total_gates": 11196,
+        "total_1q": 4476,
+        "total_2q": 6720,
+        "depth": 9216,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 3360,
+          "sqrtiSWAPdg_ec": 3360,
+          "s": 1398,
+          "rz": 1680,
+          "sdg": 1398
+        },
+        "noisy_fidelity_device": 0.06517759571359971,
+        "noisy_fidelity_jitter": 0.06476870848735945
+      },
+      "generic": {
+        "total_gates": 42154,
+        "total_1q": 35488,
+        "total_2q": 6666,
+        "depth": 27870,
+        "gate_counts": {
+          "rz": 19103,
+          "sx": 16022,
+          "cx": 6666,
+          "x": 363
+        },
+        "noisy_fidelity_device": 0.06154074117094656,
+        "noisy_fidelity_jitter": 0.10628571678367042
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9919642857142857,
+        "depth_ratio": 3.0240885416666665
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1234,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354721,
+        "total_1q": 298689,
+        "total_2q": 56032,
+        "depth": 234554,
+        "gate_counts": {
+          "rz": 160225,
+          "sx": 135300,
+          "cx": 56032,
+          "x": 3164
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9859234234234234,
+        "depth_ratio": 3.016383744855967
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1235,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354700,
+        "total_1q": 298684,
+        "total_2q": 56016,
+        "depth": 234442,
+        "gate_counts": {
+          "rz": 160334,
+          "sx": 135198,
+          "cx": 56016,
+          "x": 3152
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9856418918918919,
+        "depth_ratio": 3.0149434156378603
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1236,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 355440,
+        "total_1q": 299264,
+        "total_2q": 56176,
+        "depth": 234944,
+        "gate_counts": {
+          "rz": 160621,
+          "sx": 135546,
+          "cx": 56176,
+          "x": 3097
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9884572072072072,
+        "depth_ratio": 3.0213991769547324
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1237,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 355204,
+        "total_1q": 299092,
+        "total_2q": 56112,
+        "depth": 234842,
+        "gate_counts": {
+          "rz": 160441,
+          "sx": 135400,
+          "cx": 56112,
+          "x": 3251
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.987331081081081,
+        "depth_ratio": 3.020087448559671
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1238,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 355929,
+        "total_1q": 299629,
+        "total_2q": 56300,
+        "depth": 235222,
+        "gate_counts": {
+          "rz": 160781,
+          "sx": 135669,
+          "cx": 56300,
+          "x": 3179
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9906390765765766,
+        "depth_ratio": 3.024974279835391
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1239,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354757,
+        "total_1q": 298705,
+        "total_2q": 56052,
+        "depth": 234545,
+        "gate_counts": {
+          "rz": 160384,
+          "sx": 135275,
+          "cx": 56052,
+          "x": 3046
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9862753378378378,
+        "depth_ratio": 3.0162680041152266
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1240,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354411,
+        "total_1q": 298455,
+        "total_2q": 55956,
+        "depth": 234366,
+        "gate_counts": {
+          "rz": 160110,
+          "sx": 135137,
+          "cx": 55956,
+          "x": 3208
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9845861486486487,
+        "depth_ratio": 3.013966049382716
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1241,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354191,
+        "total_1q": 298215,
+        "total_2q": 55976,
+        "depth": 234168,
+        "gate_counts": {
+          "rz": 160039,
+          "sx": 135109,
+          "cx": 55976,
+          "x": 3067
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9849380630630631,
+        "depth_ratio": 3.01141975308642
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1242,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 355055,
+        "total_1q": 299087,
+        "total_2q": 55968,
+        "depth": 234728,
+        "gate_counts": {
+          "rz": 160620,
+          "sx": 135388,
+          "cx": 55968,
+          "x": 3079
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9847972972972973,
+        "depth_ratio": 3.0186213991769546
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1243,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354469,
+        "total_1q": 298465,
+        "total_2q": 56004,
+        "depth": 234325,
+        "gate_counts": {
+          "rz": 160209,
+          "sx": 135163,
+          "cx": 56004,
+          "x": 3093
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9854307432432432,
+        "depth_ratio": 3.0134387860082303
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1244,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354733,
+        "total_1q": 298717,
+        "total_2q": 56016,
+        "depth": 234494,
+        "gate_counts": {
+          "rz": 160399,
+          "sx": 135212,
+          "cx": 56016,
+          "x": 3106
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9856418918918919,
+        "depth_ratio": 3.0156121399176956
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1245,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 353585,
+        "total_1q": 297737,
+        "total_2q": 55848,
+        "depth": 233828,
+        "gate_counts": {
+          "rz": 159827,
+          "sx": 134885,
+          "cx": 55848,
+          "x": 3025
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9826858108108109,
+        "depth_ratio": 3.0070473251028806
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1246,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 353515,
+        "total_1q": 297727,
+        "total_2q": 55788,
+        "depth": 233779,
+        "gate_counts": {
+          "rz": 159877,
+          "sx": 134842,
+          "cx": 55788,
+          "x": 3008
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9816300675675675,
+        "depth_ratio": 3.006417181069959
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1247,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 355047,
+        "total_1q": 299007,
+        "total_2q": 56040,
+        "depth": 234750,
+        "gate_counts": {
+          "rz": 160511,
+          "sx": 135418,
+          "cx": 56040,
+          "x": 3078
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9860641891891891,
+        "depth_ratio": 3.0189043209876543
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1248,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354828,
+        "total_1q": 298808,
+        "total_2q": 56020,
+        "depth": 234611,
+        "gate_counts": {
+          "rz": 160391,
+          "sx": 135301,
+          "cx": 56020,
+          "x": 3116
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9857122747747747,
+        "depth_ratio": 3.017116769547325
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1249,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354228,
+        "total_1q": 298348,
+        "total_2q": 55880,
+        "depth": 234171,
+        "gate_counts": {
+          "rz": 160249,
+          "sx": 135096,
+          "cx": 55880,
+          "x": 3003
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9832488738738738,
+        "depth_ratio": 3.011458333333333
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1250,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354591,
+        "total_1q": 298647,
+        "total_2q": 55944,
+        "depth": 234424,
+        "gate_counts": {
+          "rz": 160296,
+          "sx": 135212,
+          "cx": 55944,
+          "x": 3139
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.984375,
+        "depth_ratio": 3.0147119341563786
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1251,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354777,
+        "total_1q": 298749,
+        "total_2q": 56028,
+        "depth": 234569,
+        "gate_counts": {
+          "rz": 160366,
+          "sx": 135258,
+          "cx": 56028,
+          "x": 3125
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9858530405405406,
+        "depth_ratio": 3.016576646090535
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1252,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354284,
+        "total_1q": 298368,
+        "total_2q": 55916,
+        "depth": 234292,
+        "gate_counts": {
+          "rz": 160172,
+          "sx": 135126,
+          "cx": 55916,
+          "x": 3070
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9838823198198198,
+        "depth_ratio": 3.013014403292181
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1253,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 355068,
+        "total_1q": 298920,
+        "total_2q": 56148,
+        "depth": 234694,
+        "gate_counts": {
+          "rz": 160413,
+          "sx": 135394,
+          "cx": 56148,
+          "x": 3113
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.987964527027027,
+        "depth_ratio": 3.018184156378601
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1254,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354937,
+        "total_1q": 298877,
+        "total_2q": 56060,
+        "depth": 234667,
+        "gate_counts": {
+          "rz": 160431,
+          "sx": 135269,
+          "cx": 56060,
+          "x": 3177
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9864161036036037,
+        "depth_ratio": 3.0178369341563784
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1255,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 353297,
+        "total_1q": 297565,
+        "total_2q": 55732,
+        "depth": 233791,
+        "gate_counts": {
+          "rz": 159651,
+          "sx": 134818,
+          "cx": 55732,
+          "x": 3096
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9806447072072072,
+        "depth_ratio": 3.0065715020576134
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1256,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354482,
+        "total_1q": 298518,
+        "total_2q": 55964,
+        "depth": 234318,
+        "gate_counts": {
+          "rz": 160151,
+          "sx": 135247,
+          "cx": 55964,
+          "x": 3120
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9847269144144144,
+        "depth_ratio": 3.0133487654320987
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1257,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 356210,
+        "total_1q": 299982,
+        "total_2q": 56228,
+        "depth": 235286,
+        "gate_counts": {
+          "rz": 161084,
+          "sx": 135835,
+          "cx": 56228,
+          "x": 3063
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9893721846846847,
+        "depth_ratio": 3.0257973251028805
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1258,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 353555,
+        "total_1q": 297727,
+        "total_2q": 55828,
+        "depth": 233880,
+        "gate_counts": {
+          "rz": 159798,
+          "sx": 134867,
+          "cx": 55828,
+          "x": 3062
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9823338963963963,
+        "depth_ratio": 3.007716049382716
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1259,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354772,
+        "total_1q": 298768,
+        "total_2q": 56004,
+        "depth": 234576,
+        "gate_counts": {
+          "rz": 160377,
+          "sx": 135279,
+          "cx": 56004,
+          "x": 3112
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9854307432432432,
+        "depth_ratio": 3.0166666666666666
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1260,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 353742,
+        "total_1q": 297890,
+        "total_2q": 55852,
+        "depth": 234008,
+        "gate_counts": {
+          "rz": 159878,
+          "sx": 134972,
+          "cx": 55852,
+          "x": 3040
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9827561936936937,
+        "depth_ratio": 3.0093621399176955
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1261,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354336,
+        "total_1q": 298392,
+        "total_2q": 55944,
+        "depth": 234331,
+        "gate_counts": {
+          "rz": 160191,
+          "sx": 135164,
+          "cx": 55944,
+          "x": 3037
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.984375,
+        "depth_ratio": 3.0135159465020576
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1262,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 355903,
+        "total_1q": 299675,
+        "total_2q": 56228,
+        "depth": 235167,
+        "gate_counts": {
+          "rz": 160864,
+          "sx": 135697,
+          "cx": 56228,
+          "x": 3114
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9893721846846847,
+        "depth_ratio": 3.024266975308642
+      }
+    },
+    {
+      "n_qubits": 5,
+      "seed": 1263,
+      "native": {
+        "total_gates": 94680,
+        "total_1q": 37848,
+        "total_2q": 56832,
+        "depth": 77760,
+        "gate_counts": {
+          "sqrtiSWAP_ec": 28416,
+          "sqrtiSWAPdg_ec": 28416,
+          "s": 11820,
+          "rz": 14208,
+          "sdg": 11820
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "generic": {
+        "total_gates": 354413,
+        "total_1q": 298437,
+        "total_2q": 55976,
+        "depth": 234347,
+        "gate_counts": {
+          "rz": 160124,
+          "sx": 135209,
+          "cx": 55976,
+          "x": 3104
+        },
+        "noisy_fidelity_device": null,
+        "noisy_fidelity_jitter": null
+      },
+      "overhead": {
+        "gate_count_ratio": 0.9849380630630631,
+        "depth_ratio": 3.01372170781893
+      }
+    }
+  ],
+  "aggregated_statistics": {
+    "3": {
+      "native": {
+        "total_gates": {
+          "mean": 1120.0,
+          "std": 0.0
+        },
+        "total_2q": {
+          "mean": 672.0,
+          "std": 0.0
+        },
+        "depth": {
+          "mean": 924.0,
+          "std": 0.0
+        },
+        "noisy_fidelity_device": {
+          "mean": 0.12500000204491604,
+          "std": 2.5022253379472564e-10
+        },
+        "noisy_fidelity_jitter": {
+          "mean": 0.5682880913579175,
+          "std": 0.0036116133088786068
+        }
+      },
+      "generic": {
+        "total_gates": {
+          "mean": 4258.633333333333,
+          "std": 6.204747286464527
+        },
+        "total_2q": {
+          "mean": 668.0,
+          "std": 0.0
+        },
+        "depth": {
+          "mean": 2822.2,
+          "std": 4.206344414492628
+        },
+        "noisy_fidelity_device": {
+          "mean": 0.12500282734584742,
+          "std": 1.1601523045416556e-07
+        },
+        "noisy_fidelity_jitter": {
+          "mean": 0.7838279443064858,
+          "std": 0.0024856866420900304
+        }
+      },
+      "overhead": {
+        "gate_count_ratio": {
+          "mean": 0.9940476190476193,
+          "std": 2.220446049250313e-16
+        },
+        "depth_ratio": {
+          "mean": 3.0543290043290043,
+          "std": 0.0045523207949054526
+        }
+      }
+    },
+    "4": {
+      "native": {
+        "total_gates": {
+          "mean": 11196.0,
+          "std": 0.0
+        },
+        "total_2q": {
+          "mean": 6720.0,
+          "std": 0.0
+        },
+        "depth": {
+          "mean": 9216.0,
+          "std": 0.0
+        },
+        "noisy_fidelity_device": {
+          "mean": 0.06508587355494727,
+          "std": 0.000174692062052457
+        },
+        "noisy_fidelity_jitter": {
+          "mean": 0.06513992649128868,
+          "std": 0.00015655157740677926
+        }
+      },
+      "generic": {
+        "total_gates": {
+          "mean": 42091.13333333333,
+          "std": 30.57747900370831
+        },
+        "total_2q": {
+          "mean": 6666.0,
+          "std": 2.065591117977289
+        },
+        "depth": {
+          "mean": 27839.6,
+          "std": 21.095971179350812
+        },
+        "noisy_fidelity_device": {
+          "mean": 0.061498570958877154,
+          "std": 0.00010661475709812083
+        },
+        "noisy_fidelity_jitter": {
+          "mean": 0.10604530616915094,
+          "std": 0.0010333029607332716
+        }
+      },
+      "overhead": {
+        "gate_count_ratio": {
+          "mean": 0.9919642857142856,
+          "std": 0.0003073796306513812
+        },
+        "depth_ratio": {
+          "mean": 3.020789930555556,
+          "std": 0.0022890593727594006
+        }
+      }
+    },
+    "5": {
+      "native": {
+        "total_gates": {
+          "mean": 94680.0,
+          "std": 0.0
+        },
+        "total_2q": {
+          "mean": 56832.0,
+          "std": 0.0
+        },
+        "depth": {
+          "mean": 77760.0,
+          "std": 0.0
+        },
+        "noisy_fidelity_device": {
+          "mean": null,
+          "std": null
+        },
+        "noisy_fidelity_jitter": {
+          "mean": null,
+          "std": null
+        }
+      },
+      "generic": {
+        "total_gates": {
+          "mean": 354639.3333333333,
+          "std": 690.6513029179212
+        },
+        "total_2q": {
+          "mean": 56001.2,
+          "std": 128.38753833608618
+        },
+        "depth": {
+          "mean": 234470.63333333333,
+          "std": 390.9456469752399
+        },
+        "noisy_fidelity_device": {
+          "mean": null,
+          "std": null
+        },
+        "noisy_fidelity_jitter": {
+          "mean": null,
+          "std": null
+        }
+      },
+      "overhead": {
+        "gate_count_ratio": {
+          "mean": 0.985381475225225,
+          "std": 0.0022590712685825977
+        },
+        "depth_ratio": {
+          "mean": 3.0153116426611803,
+          "std": 0.005027593196698039
+        }
+      }
+    }
+  }
+}
